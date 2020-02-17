@@ -23,8 +23,10 @@ City polygons fetched and displayed with shapely, keplergl and pandas.
   2. points_location.csv format: id, latitud, longitud, location. Location found for valid points in datasets/points.csv
 
 Execute:
+```bash
   - virtualenv env -p `which python3.7`
   - source env/bin/activate
   - pip install -r requirements.txt
   - python scripts/retrieve_location_polygons.py
   - python scripts/points_location.py
+```
