@@ -1,7 +1,7 @@
 # osm_polygons_shapely
 City polygons fetched and displayed with shapely, keplergl and pandas.
 
-## Finale scripts:
+## Final scripts:
   - scripts/retrieve_location_polygons.py
   - scripts/points_location.py
 
