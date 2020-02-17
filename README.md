@@ -1,6 +1,11 @@
 # osm_polygons_shapely
 City polygons fetched and displayed with shapely, keplergl and pandas.
 
+## Finale scripts:
+  - scripts/retrieve_location_polygons.py
+  - scripts/points_location.py
+
+## Files description:
 - datasets:
   1. points.csv format: id, latitud, longitud. List of coordinates. Needs validation. Find location containing the points.
 
@@ -22,7 +27,7 @@ City polygons fetched and displayed with shapely, keplergl and pandas.
   1. location_coordinates.csv format: location, latitud, longitud for bogota locations
   2. points_location.csv format: id, latitud, longitud, location. Location found for valid points in datasets/points.csv
 
-Execute:
+## Execute:
 ```bash
   - virtualenv env -p `which python3.7`
   - source env/bin/activate
